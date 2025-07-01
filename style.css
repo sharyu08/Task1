@@ -54,11 +54,13 @@ ul li {
 @media (max-width: 480px) {
     input[type="text"], button {
         width: 100%;
-        margin: 10px 0;
+        margin: 10px auto;
+        display: block;  
     }
 
     button {
-        margin-left: 0;
+        margin-left: auto;  
+        margin-right: auto;
     }
 
     ul li {
