@@ -52,15 +52,16 @@ ul li {
     list-style-position: inside; /* bullet inside the box */
 }
 @media (max-width: 480px) {
-    input[type="text"], button {
+    input[type="text"] {
         width: 100%;
+        display: block;
         margin: 10px auto;
-        display: block;  
     }
 
     button {
-        margin-left: auto;  
-        margin-right: auto;
+        width: fit-content;
+        display: block;
+        margin: 10px auto !important;
     }
 
     ul li {
